@@ -5,6 +5,6 @@ import { theme } from "./theme";
 export default function App() {
   return <MantineProvider theme={theme}>App
   
-  <Button color='black'>Hey</Button>
+  <Button color='green'>Hey</Button>
   </MantineProvider>;
 }
